@@ -1,0 +1,9 @@
+---
+- name: Deploy Atrifact to localhost
+  hosts: localhost
+  connection: local
+  tasks:
+  	- name: Copy the artifact to the target location
+  	  copy:
+  	  	src: "/var/lib/jenkins/workspace/lab8/target/ish-app-1.0-SNAPSHOT.jar"
+  	  	dest: "/home/devopslab_8/devopslab_8.jar"
