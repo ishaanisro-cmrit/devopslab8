@@ -1,5 +1,5 @@
 ---
-- name: Deploy Atrifact to localhost
+- name: Deploy Artifact to localhost
   hosts: localhost
   connection: local
   tasks:
